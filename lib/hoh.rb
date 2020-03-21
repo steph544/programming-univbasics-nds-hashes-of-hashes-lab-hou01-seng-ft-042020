@@ -4,7 +4,7 @@
 #
 # The tests will guide your construction.
 #
-# PORTION_1 = {
+#PORTION_1 = {
 #   label: "Kingdom",
 #   sub_category: {
 #     label: "Phylum",
@@ -31,6 +31,27 @@
 # }
 
 def naming_system
+  {
+    label: "Kingdom",
+    sub_category: {
+       label: "Phylum",
+          sub_category: {
+            label: "Class",
+              sub_category: {
+                label: "Order",
+                  sub_category: {
+                   label: "Family",
+                     sub_category: {
+                       label: "Genus",
+                      sub_category: {
+                        label: "Species"
+                      }
+                  }
+              }
+            }
+        }
+    }
+  }
   # Remember:
   #  Kingdom
   #  Phylum
